@@ -4,15 +4,25 @@
   crossorigin="anonymous"></script>
 
 <style>
+	body{
+		background-color: #f5dd42;
+	}
 	.devoured {
 		opacity: .5;
 	}
-	h1 {
+	h1, form, ul{
 		position: relative;
 		left: 50%;
    	}
+
+	img{
+		position: relative;
+		left: 45%;
+	}
 </style>
 <h1>BURGERS</h1>
+
+<img src="https://cdn.dribbble.com/users/539024/screenshots/6142362/burger-dribble.gif" width="350px" height="300px" alt="burger time">
 
 <form action="/api/new/" method="POST">
 	<textarea type="text" name="name"></textarea>
